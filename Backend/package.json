@@ -1,0 +1,26 @@
+{
+  "name": "dogdatingbackend",
+  "version": "1.0.0",
+  "description": "dog details backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js "
+  },
+  "keywords": [
+    "dog"
+  ],
+  "author": "hari",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4",
+    "multer": "^1.4.5-lts.1",
+    "node-latest-version": "^1.0.16",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}

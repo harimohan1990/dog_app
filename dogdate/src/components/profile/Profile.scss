@@ -1,0 +1,114 @@
+.profile_wrapper {
+  // Basic styling for the profile wrapper
+  // Adjust as needed
+  padding: 20px;
+  background-color: #f0f0f0;
+
+  .profile_header {
+    // Styling for the header
+    // Adjust as needed
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .profile_profile_moveleft {
+      // Styling for the back button and profile text
+      // Adjust as needed
+      display: flex;
+      align-items: center;
+
+      svg {
+        // Styling for the back arrow icon
+        // Adjust as needed
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .profile_info {
+    // Styling for the profile information section
+    // Adjust as needed
+    label {
+      // Styling for labels
+      // Adjust as needed
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input {
+      // Styling for input fields
+      // Adjust as needed
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+  }
+
+  .save_updateinfo {
+    // Styling for the save/update info buttons
+    // Adjust as needed
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    button {
+      // Styling for the buttons
+      // Adjust as needed
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+
+  .logout_deletetbtns {
+    // Styling for the logout and delete account buttons section
+    // Adjust as needed
+    margin-top: 20px;
+
+    .btns {
+      // Styling for the buttons container
+      // Adjust as needed
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        // Styling for the buttons
+        // Adjust as needed
+        padding: 10px 20px;
+        background-color: #dc3545;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #bd2130;
+        }
+      }
+    }
+  }
+
+  // Media query for mobile devices
+  @media (max-width: 767px) {
+    // Adjust layout for smaller screens
+    .profile_info {
+      input {
+        // Adjust input width for smaller screens
+        width: calc(100% - 20px); // Subtract padding
+      }
+    }
+  }
+}
